@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Helvetica Neue LT Pro';
+  src: url('/fonts/HelveticaNeueLTPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
