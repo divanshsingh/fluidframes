@@ -59,7 +59,7 @@ const Work = () => {
             Highlights of cases that we passionately built with forward-thinking
             clients and friends over the years. <br />
             <span className="text-sm sm:pt-[22rem] sm:text-sm">
-            Disclaimer: These are not rela projects, just for designing purpose.
+            Disclaimer: These are not real projects, just for designing purpose.
               </span>
           </p>
         </div>
@@ -70,6 +70,7 @@ const Work = () => {
   className={`video w-full h-[104vw] overflow-hidden ${index === 1 || index === 2 ? 'sm:h-[32vw]' : 'sm:h-[50vw]'}`}
 >
   <video
+  autoPlay={window.innerWidth <= 640}
     muted
     loop
     className="w-full h-full object-cover block pointer-events-none sm:pointer-events-auto hover:opacity-100 cursor-pointer"

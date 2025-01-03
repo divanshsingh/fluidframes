@@ -8,3 +8,17 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Hatton';
+  src: url('/fonts/Hatton.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Walkway Expand';
+  src: url('/fonts/WalkwayExpand.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

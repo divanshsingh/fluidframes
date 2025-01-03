@@ -3,14 +3,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[70vh] sm:h-[100vh] bg-black">
-      <div className="w-full h-full flex flex-col px-8 sm:px-28 text-[#8f8277]">
-        <div className="w-full lg:w-[30%] h-[70%] sm:h-[70vh] pt-[4.5rem] pb-[1rem]">
+    <div className="w-full h-[100vh] bg-black">
+      <div className="w-full h-full gap-10 flex flex-col px-8 sm:px-28 text-[#8f8277]">
+        <div className="w-full lg:w-[30%] sm:h-[70vh] pt-[4.5rem] pb-[1rem]">
           <h1 className="text-7xl sm:text-9xl mb-8 text-[#E0CCBB]">
             Our <br />
             Story
           </h1>
-          <p className="text-2xl mb-4">
+          <p className="text-xl mb-4">
             The story behind this website is to learn and show case my animation skills.
           </p>
           <a className="border-b-[1px] border-[#8f8277] sm:text-lg text-[#E0CCBB]" href="https://exoape.com/">

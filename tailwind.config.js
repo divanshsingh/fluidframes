@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         helvetica: ['Helvetica Neue LT Pro', 'sans-serif'],
+        hatton: ['Hatton', 'sans-serif'],
+        walkway: ['Walkway Expand', 'sans-serif'],
       }
     },
   },

@@ -11,7 +11,7 @@ const Landing = () => {
       <div className='w-full absolute top-0 px-8 sm:px-28'>
       <div className='landing-text max-w-screen-2xl mx-auto h-full'>
       </div>
-        <div className='landing-top-para font-light text-lg sm:text-2xl text-white mt-[27.5rem]'>
+        <div className='landing-top-para font-light text-lg sm:text-2xl text-white sm:mt-[27.5rem] mt-[20rem]'>
           {[
             "Global digital design studio specializing",
             "in impactful designs delivering seamless",
@@ -29,9 +29,9 @@ const Landing = () => {
             </p>
           })}
         </div>
-        <div className='landing-headings text-white font-["Hatton"] font-bold mt-7 sm:mt-24 sm:mb-24'>
+        <div className='landing-headings text-white font-hatton font-bold mt-7 sm:mt-24 sm:mb-24'>
           {[
-            "Design", "Funtionality", "Scalibility"
+            "Design", "Functionality", "Scalibility"
           ].map((item, index)=>{
             return <h1 key={index} className='text-6xl sm:text-[14vw] overflow-hidden leading-[1.15]'>
               <motion.span 
